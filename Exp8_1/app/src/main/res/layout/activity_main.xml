@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:src="@drawable/ic_google_logo" />
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/video"
+        android:layout_margin="10dp"
+        />
+
+<!--    <AutoCompleteTextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginEnd="15dp"-->
+<!--        android:id="@+id/search_bar"-->
+<!--        android:background="#E1E0E0"-->
+<!--        android:drawableEnd="@drawable/ic_baseline_keyboard_voice_24"-->
+<!--        android:hint="Search or type web address"-->
+<!--        android:padding="10dp"-->
+<!--        android:textColorHint="#757575" />-->
+<!--    <ToggleButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:textOff="OFF"-->
+<!--        android:textOn="ON"-->
+<!--        />-->
+
+<!--    <CheckBox-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Check It"-->
+<!--        android:padding="1dp"-->
+<!--        android:checked="true"-->
+<!--        android:id="@+id/ch1"-->
+<!--        />-->
+
+<!--    <RadioGroup-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <RadioButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="YES"-->
+<!--            android:id="@+id/radio1"-->
+<!--            />-->
+<!--        <RadioButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="No"-->
+
+<!--            android:id="@+id/radio2"-->
+<!--            />-->
+<!--    </RadioGroup>-->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="Click"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/num"
+            android:layout_width="match_parent"
+            android:hint="Enter !st Number" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/num2"
+            android:layout_width="match_parent"
+            android:hint="Enter 2ND Number"
+            tools:ignore="TouchTargetSizeCheck" />
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_span="5"
+            android:text="+" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:text="+" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="+" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="+" />
+
+    </TableRow>
+
+
+</TableLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/open_resto"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/restaurants_food_look_up" />
+
+    <ImageButton
+        android:id="@+id/open_doctors_scree"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_doctor" />
+
+    <ImageButton
+        android:id="@+id/open_medicals_shop_screen"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_medicines" />
+
+    <ImageButton
+        android:id="@+id/open_police_stations_screen"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_police_station" />
+
+
+</LinearLayout>
